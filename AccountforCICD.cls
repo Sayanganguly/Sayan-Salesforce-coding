@@ -9,5 +9,6 @@ public class ApexClassForDeploymentCICD
             accList.add(acc);
         }
         insert accList;
+        System.debug('XXX'+accList);
         return accList;
     }
